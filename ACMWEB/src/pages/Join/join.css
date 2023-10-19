@@ -1,0 +1,58 @@
+.JoinContainer{
+    height: 600px;
+    width: 100%;
+    margin-top: 15px;
+}
+.joinHeadline{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.JoinContainerBox{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.JoinBox1{
+ margin: 10px 10px;
+    height: 200px;
+    width: 450px;
+    border: 2px solid rgb(157, 207, 248);
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.joinboxBadge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+   color: white;
+   font-weight: bold;
+   
+    background-color: blue;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.joinBoxText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 12px;
+    padding: 10px;
+   
+  
+  
+}
+.JoinContainerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
